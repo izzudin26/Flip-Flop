@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(221, 221, 221);
+}
+.center{
+    margin: auto;
+}
+.light-on{
+    color: yellow;
+    text-shadow: 0px 3px black;
+}
+.light-off{
+    color: black;
+}
+
+.hide{
+    display: none;
+}

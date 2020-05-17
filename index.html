@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLIP-FLOP</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="custom.css">
+</head>
+
+<body>
+    <div class="container justify-content-center">
+        <div class="justify-content-center">
+            <div class="col-md-5 col-sm-10 col-xs-10 col-lg-5 center">
+                <div class="card mt-5 border-success">
+                    <div class="card-body">
+                        <h5 class="card-title">Flip-Flop Sistem Digital</h5>
+                        <div class="row d-flex justify-content-center">
+                            <div class="mt-5">
+                                <div>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <button class="btn btn-outline-success" type="button" id="decrement1"><i
+                                                    class="fa fa-minus"></i>
+                                            </button>
+                                        </div>
+                                        <input type="number" max="1" value="0" min="0" id="val1" class="form-control"
+                                            disabled>
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-success" id="increment1"><i
+                                                    class="fa fa-plus"></i></button>
+                                        </div>
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <button class="btn btn-outline-success" id="decrement2"><i
+                                                    class="fa fa-minus"></i></button>
+                                        </div>
+                                        <input type="number" max="1" value="0" min="0" id="val2" class="form-control" disabled>
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-success" id="increment2"><i
+                                                    class="fa fa-plus"></i></button>
+                                        </div>
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <button class="btn btn-outline-success" type="button" id="decrement3"><i
+                                                    class="fa fa-minus"></i>
+                                            </button>
+                                        </div>
+                                        <input type="number" max="1" value="0" min="0" id="val3" class="form-control"
+                                            disabled>
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-success" id="increment3"><i
+                                                    class="fa fa-plus"></i></button>
+                                        </div>
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <button class="btn btn-outline-success" type="button" id="decrement4"><i
+                                                    class="fa fa-minus"></i>
+                                            </button>
+                                        </div>
+                                        <input type="number" max="1" value="0" min="0" id="val4" class="form-control"
+                                            disabled>
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-success" id="increment4"><i
+                                                    class="fa fa-plus"></i></button>
+                                        </div>
+                                    </div>
+                                    <select id="gate" class="form-control mb-4 border-success">
+                                        <option value="flip1">FLIP-FLOP 1</option>
+                                        <option value="flip2">FLIP-FLOP 2</option>
+                                    </select>
+                                    <button class="btn btn-outline-success mt-3 btn-block" id="button">PROCCESS</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <i class="fa fa-lightbulb-o fa-5x mt-5 justify-content-center light-on hide" id="light"
+                                aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="light.js"></script>
+    <script src="flip1.js"></script>
+    <script src="flip2.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
