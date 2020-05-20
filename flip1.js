@@ -5,10 +5,10 @@ const resultFlip1 = (in1,in2,in3,in4) => {
 
 const and1 = (val1, val2) => {
     // AND gate
-    return val1 == 1 && val2 ? 1 : 0
+    return val1 == 1 && val2 == 1 ? 1 : 0
 }
 
 const and2 = (val3, val4) => {
     // AND gate
-    return val3 == 1 && val4 ? 1 : 0
+    return val3 == 1 && val4 == 1 ? 1 : 0
 }
